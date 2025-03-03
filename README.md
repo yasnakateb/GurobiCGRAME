@@ -52,11 +52,11 @@ Navigate to the bin subdirectory of the extracted Gurobi folder. Run the followi
 
 Open your .bashrc file and add the following lines to set the Gurobi environment:
 
-    export GUROBI_HOME="$HOME/gurobi702"
+    export GUROBI_HOME="$HOME/gurobi[your_version]"
     export PATH="${PATH}:${GUROBI_HOME}/bin"
     export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
 
-Save and apply the changes:
+Replace [your_version] with the specific version of Gurobi you're using. Save and apply the changes:
 
     source ~/.bashrc
 
