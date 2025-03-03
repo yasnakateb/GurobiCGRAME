@@ -45,7 +45,7 @@ This guide will walk you through setting up Gurobi within CGRA-ME to optimize CG
 
 Navigate to the bin subdirectory of the extracted Gurobi folder. Run the following command to activate Gurobi with your license key:
 
-        ./grbgetkey <your-license-key>
+    ./grbgetkey <your-license-key>
 
 
 ### 7. Configure Environment Variables
